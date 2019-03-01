@@ -1,0 +1,160 @@
+html, body{
+    height: 100%;
+    padding: 0;
+    margin: 0px;
+  }
+  
+  .btn{
+    position: fixed;
+    float: left;
+    bottom: 0px;
+    font-weight: bold;
+  }
+  
+  .changecolor-class{
+    
+   animation: color-change 10s infinite;
+    
+  }
+  
+  @keyframes color-change {
+    
+    0% {color: red;}
+    25% {color: yellow;}
+    50% {color: green;}
+    75% {color: purple;}
+    100% {color: red;}
+  }
+  
+  .sect{
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  /* Navbar buttons (Smooth Scrolling) */
+  
+  .nav-bar-page1{
+    position: absolute;
+    left: 50%;
+    bottom: 30%;
+    transform: translateX(-50%);
+    
+  }
+  
+  .nav-bar-page2{
+   position: absolute;
+    top: 140%;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+  }
+  
+  .nav-bar-page3{
+   position: absolute;
+    
+    left: 50%;
+    top: 230%;
+    transform: translateX(-50%);
+  }
+  
+  .nav-bar-button-page1{
+    width: 100px;
+    height: 10vh;
+    font-size: 90px;
+    text-align: center;
+    
+  }
+  
+  .nav-bar-button-page2{
+    
+    width: 100px;
+    height: 10vh;
+    font-size: 90px;
+    text-align: center;
+  }
+  
+  .nav-bar-button-page3{
+    
+    width: 100px;
+    height: 10vh;
+    font-size: 90px;
+    text-align: center;
+  }
+  
+  #link1, #link2, #link2page2, #link3{
+    text-decoration: none;
+  }
+  /* This is the first part of the page */
+  
+  .part1{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://static1.squarespace.com/static/556f6ef4e4b0865e15ed19fa/t/56d75eb9b654f9f9eccb39a1/1456955270707/affordable-website-design-boone-nc-lazarus-design-team.jpg?format=2500w")
+    
+  }
+  
+  .title{
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    
+  }
+  
+  h1{
+    
+    margin: 0px;
+    color: cyan;
+    font-weight: bold;
+  }
+  
+  p{
+    position: absolute;
+    left: 55px;
+    font-weight: bold;
+    
+  }
+  
+  span{
+    color: cyan;
+    font-weight: bold;
+  }
+  
+  .part2{
+    
+    background-image: url("http://www.tonyangelmedia.com/img/website-design-tony-angel-media.jpg")
+    
+  }
+  
+  .part3{
+    
+    background-image: url("https://i.pinimg.com/originals/b7/46/43/b74643cbbe7d68c54554544ec50cf999.jpg")
+    
+  }
+  
+  @media screen and (max-width: 959px){
+    
+    .sect{
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 640px){
+    
+    .sect{
+      width: 100%;
+      
+     
+    }
+    
+    .title{
+      
+      left: 50px;
+      width: 100%;
+      top: 290px;
+    }
+  }
+  
+  /*[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+    */
